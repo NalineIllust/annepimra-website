@@ -71,8 +71,8 @@ header {
         }
         .logo-text {
             flex: 1;
-            font-size: 25px;
-            font-weight: 350;
+            font-size: 30px;
+            font-weight: 400;
             word-spacing: 9px;
         }
     }
@@ -258,6 +258,51 @@ header {
             cursor: pointer;
         }
     }
+    .panel-five {
+        width: 100%;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            opacity: 0.55;
+            cursor: pointer;
+        }
+    }
+    .panel-six {
+        width: 100%;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            opacity: 0.55;
+            cursor: pointer;
+        }
+    }
+    .panel-seven {
+        width: 100%;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            opacity: 0.55;
+            cursor: pointer;
+        }
+    }
+    .panel-eight {
+        width: 100%;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            opacity: 0.55;
+            cursor: pointer;
+        }
+    }
+    .panel-nine {
+        width: 100%;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            opacity: 0.55;
+            cursor: pointer;
+        }
+    }
 
 
 .hero {
@@ -273,6 +318,7 @@ header {
         padding-left: 50px;
         padding-right: 50px;
         max-width: 1080px;
+        width: 100%;
 
     }
     .hero-text {
@@ -282,6 +328,13 @@ header {
         justify-content: center;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .hero-video {
+        flex-grow: 1;
+        padding-left: 50px;
+        padding-right: 50px;
+        max-width: 12800px;
+
     }
 }
 
