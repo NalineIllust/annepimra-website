@@ -222,7 +222,7 @@ header {
 }
 
 .hero-container {
-  margin-top: 125px;
+  margin-top: 75px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
